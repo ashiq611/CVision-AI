@@ -36,12 +36,12 @@ cd CVision\ AI
 cd ml
 
 ##Create .env
-```bash
+
 GEMINI_API_KEY=your_api_key_here
 GEMINI_MODEL=gemini-2.0-flash
 PORT=8000
 
-```bash
+
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
