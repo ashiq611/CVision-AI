@@ -10,7 +10,6 @@ genai.configure(api_key=GEMINI_API_KEY)
 
 
 def _build_prompt() -> str:
-    # Same prompt, but wording ektu generic “document” kore dilam
     return """
 You are an assistant that extracts structured CV/resume data from a document.
 The document may be:
